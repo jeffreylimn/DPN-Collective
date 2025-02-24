@@ -1,19 +1,40 @@
-# DPN-Collective
-Official whitepaper for the Decentralized Physical Computing Network (DPN). Technical details and development updates will follow in the Yellow Paper and repository.
-# Decentralized Physical Computing Network (DPN)  
-**Transform 25B Idle Devices into Ethereum's Compute Layer**  
+# Decentralized Physical Computing Network (DPN)
 
-[![Whitepaper](https://img.shields.io/badge/Whitepaper-Download-blue)](https://raw.githubusercontent.com/jeffreylimn/DPN-Collective/main/DPN0.1.pdf)  
-[![Status](https://img.shields.io/badge/Status-Concept%20Stage-yellow)]()  
+## Introduction
 
-## 🚀 Why DPN?  
-- **40% Cheaper**: Than AWS p4d instances  
-- **5M+ Nodes**: Target by 2026  
-- **Zero Middlemen**: 55% rewards to device operators  
+The **Decentralized Physical Computing Network (DPN)** is an innovative project that aims to harness the idle computing power of billions of smart devices worldwide, creating a decentralized infrastructure to support Ethereum Layer 2 (L2) solutions. By integrating cryptographic proofs and game-theoretic mechanisms, DPN addresses the scalability and centralization challenges in today’s blockchain ecosystem.
 
-## 📩 Contact  
-Email: DPNETH@proton.me  
-Twitter: [@DPNProtocol](https://twitter.com/DPNProtocol)  
-## 🔒 Security Verified  
-- SHA-256 Hash: `5e422ff399bf312dba4faf2e02ee0b82c02b04df4505109d53ccb01c3793af09`  
-- Virus Scan: [0/70 Detections](https://www.virustotal.com/gui/url/5e422ff399bf312dba4faf2e02ee0b82c02b04df4505109d53ccb01c3793af09))  
+## Project Overview
+
+DPN is currently in the **conceptual and design phase**. Our mission is to reduce computational costs for Ethereum L2 by **35–40%** compared to traditional cloud services like AWS, while establishing a distributed network with over **5 million nodes**. This network will deliver enterprise-grade availability and make decentralized computing more accessible to everyone.
+
+## Key Features
+
+- **Dynamic Price Anchoring**: An enhanced EIP-1559 BASEFEE model ensures compute price stability within **±5%**.
+- **Hardware Fingerprint Authentication**: Combines TEE secure enclaves and VDF time-locks to thwart Sybil attacks, with an estimated attack cost of **$18,000 per node per day**.
+- **Deflationary Token Model**: Ties compute consumption to token burns, anchoring value and promoting sustainability.
+
+## Current Status
+
+DPN is actively seeking funding to develop and test its core technologies. We are eager to connect with partners and investors who share our vision for a decentralized future. Interested in collaborating or exploring investment opportunities? Reach out to us at **[DPNETH@proton.me](mailto:DPNETH@proton.me)**.
+
+## Roadmap
+
+- **Phase 1: Validation (2025–2026)**  
+  Build a testnet for ZK-SNARK proof generation and onboard the first million devices.
+- **Phase 2: Expansion (2027–2028)**  
+  Introduce cross-L2 compute scheduling and scale the network to over 5 million nodes.
+- **Phase 3: Autonomy (2029+)**  
+  Transition to full DAO governance and establish a fully deflationary token model.
+
+## Get Involved
+
+We welcome developers, researchers, and enthusiasts to join us in shaping the future of decentralized computing. Your feedback and contributions are crucial to bringing DPN to life.
+
+- **Whitepaper**: [DPN Whitepaper](https://github.com/jeffreylimn/DPN-Collective/blob/main/DPN_Whitepaper.pdf)  
+- **Contact**: [DPNETH@proton.me](mailto:DPNETH@proton.me)  
+- **Repository**: Explore this GitHub repo for more details!
+
+---
+
+Thank you for your interest in DPN. Together, we can turn every smart device into a building block for Ethereum’s physical compute layer.
