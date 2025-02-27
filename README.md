@@ -31,10 +31,9 @@ DPN is actively seeking funding to develop and test its core technologies. We ar
 
 We welcome developers, researchers, and enthusiasts to join us in shaping the future of decentralized computing. Your feedback and contributions are crucial to bringing DPN to life.
 
-We whole - heartedly welcome developers, researchers, and enthusiasts to join us in forging the future of decentralized computing. Your feedback and contributions are of utmost importance in making DPN a reality.
-Whitepaper: You can access the DPN Whitepaper [here](https://github.com/jeffreylimn/DPN - Collective/blob/main/White%20Paper%20of%20the%20Decentralized%20Physical%20Computing%20Network%20(DPN)%20v0.1.md).
-Contact: For any inquiries, please reach out to us at dpnprotocol@hotmail.com.
-Repository: Explore our [GitHub repository](https://github.com/jeffreylimn/DPN - Collective) for more in - depth details!
+**Whitepaper**: You can access the DPN Whitepaper [here](https://github.com/jeffreylimn/DPN-Collective/blob/main/DPN-Whitepaper-v0.1.md).  
+**Contact**: For any inquiries, please reach out to us at [dpnprotocol@hotmail.com](mailto:dpnprotocol@hotmail.com).  
+**Repository**: Explore our [GitHub repository](https://github.com/jeffreylimn/DPN-Collective) for more in-depth details!  
 
 ---
 
