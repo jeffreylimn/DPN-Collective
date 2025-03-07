@@ -1,4 +1,4 @@
-# Ethereum Decentralized Computing Power Bank Game White Paper: Decentralized Physical Computing Network (DPN)
+# White Paper on Game Theory of Ethereum Decentralized Computing Power Bank: Decentralized Physical Computing Network (DPN)
 ## February 2025
 
 ### Introduction
