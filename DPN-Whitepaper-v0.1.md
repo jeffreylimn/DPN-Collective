@@ -50,7 +50,8 @@ The EIP-1559 base fee mechanism balances supply and demand through algorithms:
 - When supply > demand: Decrease the burning rate to retain nodes.
 
 **Mathematical model**:
-\[B_t = (\frac{\sum_{i = t - 24}^t D_i}{\sum_{i = t - 24}^t S_i})×0.05×0.15 + 0.3⋅(B_{t - 1}-B_{t - 2})\]
+![1741375228043](https://github.com/user-attachments/assets/f5877ce0-32a7-44c2-a658-3565abda96c1)
+
 Note: A 24-hour sliding window smooths price fluctuations, and γ = 0.3 is the inertia factor.
 
 ### 2.2 Physical Device Identity Layer
