@@ -63,7 +63,8 @@ Note: A 24-hour sliding window smooths price fluctuations, and γ = 0.3 is the i
 | NVIDIA GPU | TPM 2.0 + CUDA lock | 94% | $0.11 per time |
 
 **Formula for attack cost**
-\[Cost_{attack}=\frac{0.18DPN/ task}{$32.77/ hour×10 minutes×1.5} = $18,432/ node/ day\]
+\![1741375429131](https://github.com/user-attachments/assets/0ec3aafe-7918-4e87-a7e9-6ea28080676e)
+
 Note: Simulated calculation based on the AWS EC2 p3.16xlarge instance.
 
 **Registration stage**:
