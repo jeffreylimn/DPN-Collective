@@ -63,7 +63,9 @@ Note: A 24-hour sliding window smooths price fluctuations, and γ = 0.3 is the i
 | NVIDIA GPU | TPM 2.0 + CUDA lock | 94% | $0.11 per time |
 
 **Formula for attack cost**
-\![1741375429131](https://github.com/user-attachments/assets/0ec3aafe-7918-4e87-a7e9-6ea28080676e)
+![1741375429131](https://github.com/user-attachments/assets/7dbe3fe1-d6a8-4428-8486-01729555710d)
+
+
 
 Note: Simulated calculation based on the AWS EC2 p3.16xlarge instance.
 
