@@ -219,4 +219,12 @@ Even if Amazon launches supercomputers, the marginal cost of DPN still approache
 
 Just as Satoshi Nakamoto embedded the front page of the Times in the genesis block, we have engraved in DPN's codebase: "True decentralization never leaves room for surrender to technological hegemony."
 
-DPN is not another fantasy of "millions of TPS." Instead, it is an engineering practice that transforms every smart device into a
+DPN is not another fantasy of "millions of TPS." Instead, it is an engineering practice that transforms every smart device into a Ethereum physical computing unit. The core code will be open-sourced and audited by a third party. We invite developers, researchers, and the community to jointly build an uncompromising decentralized future.
+Appendix
+Hardware fingerprint proof: BLS signature scheme and formal verification report (under development).
+Monte Carlo simulation parameters: (To be determined).
+AWS/DPN cost comparison: Detailed cost table for the first quarter of 2025 (To be determined).
+Compliance documents: Draft of the pre-review by the Swiss FINMA (To be submitted).
+Revision Instructions
+Technical details will be announced in the upcoming yellow paper. Currently, DPN is in the conceptual stage and is seeking funds to initiate development.
+dpnprotocol@hotmail.com
