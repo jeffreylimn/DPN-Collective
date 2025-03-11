@@ -52,9 +52,8 @@ The disadvantages brought about by the monopoly of traditional computing power v
 ### 3. Technical Architecture
 #### 3.1 Five - Dimensional Dynamic Anchoring Mechanism (DAM)
 The real - time balance between computing power value and token price is achieved through a multi - parameter linkage formula:
-\[
-\text{Exchange rate}_{t}=\frac{\text{Base\_Price}}{\text{Market price of computing power}_{t}}\times\left(1 + 0.5\cdot\frac{\text{DPN circulation}-\text{Total computing power demand}}{\text{Total computing power demand}}\right)\times(1+\text{DI}_t)\times\text{MSF}_t\times\text{EHF}_t
-\]
+![image](https://github.com/user-attachments/assets/b931b0fe-16c4-42d5-803f-52967fef7440)
+
 - **Miner Suppression Factor (MSF)**: When the proportion of ASIC computing power exceeds 5%, a 20% premium penalty mechanism is adopted to reduce miner profits by 28% - 35%.
 - **Ecosystem Health Factor (EHF)**: Encourage the participation of long - tail devices (such as mobile phones and in - vehicle terminals). When the proportion exceeds 60%, the exchange rate is increased by 10%.
 
