@@ -86,13 +86,6 @@ npm install
 Start with these beginner-friendly tasks:  
 [🔧 Good First Issues](https://github.com/jeffreylimn/DPN-Collective/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 
----
-
-> "True decentralization is built by thousands of hands, not a single genius."  
-> — Inspired by Satoshi's Philosophy
-```
-
----
 
 
-将此内容保存为`CONTRIBUTING.md`后，开发者将能快速理解项目规范并参与协作。
+
