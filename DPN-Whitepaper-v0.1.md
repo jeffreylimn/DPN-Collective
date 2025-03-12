@@ -71,9 +71,8 @@ Access to five major oracles such as Chainlink and API3, and take the median pri
 #### 3.4 Anti - Monopoly Technical Mechanisms
 DPN breaks the computing power monopoly through the following designs:
 1. **Task splitting algorithm**:
-\[
-\text{Number of task fragments}=\lceil\log_2(\text{Number of nodes})\rceil
-\]
+![image](https://github.com/user-attachments/assets/d900d746-a50b-450d-85a2-dfa375c8885c)
+
 Ensure that a single node cannot monopolize high - value tasks (such as ZK proof generation).
 2. **Computing power dispersion protocol**:
     - Allocate tasks based on geographical location hashing (Geohash) to avoid regional computing power concentration.
@@ -99,15 +98,13 @@ H --> J
 ```
 - **Light node layer (mobile phones/IoT devices)**:
 Handle low - load tasks such as data preprocessing, and use **differential privacy technology** to ensure data security:
-\[
-\text{Noise amount}=\text{Laplacian}(0,\frac{\Delta f}{\epsilon})
-\]
+![image](https://github.com/user-attachments/assets/fcaeba36-c95c-4228-9c55-14a2db6f2149)
+
 where \(\Delta f\) is the sensitivity and \(\epsilon\) is the privacy budget, achieving 98% data availability.
 - **Heavy node layer (servers/smart cars)**:
 Execute high - value tasks such as model training, and improve efficiency through **asynchronous gradient updates**:
-\[
-\text{Training speed improvement}=1-\frac{T_{\text{async}}}{T_{\text{sync}}}\approx23\%
-\]
+![image](https://github.com/user-attachments/assets/66262e17-2303-41a9-85f1-a954496e0db3)
+
 (Data source: MIT federated learning optimization experiment 2024)
 
 ### 4. Economic Model
@@ -178,9 +175,8 @@ A medical company needs to train a cancer diagnosis model. Comparing traditional
 
 #### 7.2 Anti - Sybil Governance
 Suppress Sybil attacks through the Proof - of - Contribution - Time (PoCT) algorithm:
-\[
-\text{Voting power}=\sqrt{\text{Contribution hours}}\times\log(\text{Number of devices}+1)
-\]
+![image](https://github.com/user-attachments/assets/47bbe57c-abcd-4be9-b3c5-b49962bb603c)
+
 
 #### 7.3 DAO Governance Transition Path
 DPN adopts a three - stage governance evolution:
@@ -253,9 +249,8 @@ eu_engine.verify_transaction(user123)
 **Core components**
 1. **Geofence identification**: Store global regulatory rules through IPFS and match the user's GPS hash location in real - time (error < 50 meters).
 2. **Zero - knowledge compliance proof**: Use zk - STARKs technology to verify the user's KYC/AML status without disclosing privacy:
-\[
-\text{Verification time}=O(n\log n),\text{Data compression rate}\geq83\%
-\]
+![image](https://github.com/user-attachments/assets/f193a494-0000-4c1c-ae4f-7bfd507aba88)
+
 3. **Cost optimization results**: Singapore MAS regulatory sandbox tests show that:
     - Compliance operation time is reduced from 18 minutes to 4.2 minutes.
     - Error rate is reduced from 12% to 0.9%.
