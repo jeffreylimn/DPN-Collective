@@ -1,78 +1,96 @@
-# Decentralized Physical Computing Network (DPN)
+# **DPN Collective**  
+**Decentralized Physical Computing Network**  
 
-## Project Overview
-DPN is currently in the **conceptual and design phase**. Our mission is to reduce computational costs for Ethereum L2 by **35–40%** compared to traditional cloud services like AWS, while establishing a distributed network with over **5 million nodes**. This network will deliver enterprise-grade availability and make decentralized computing more accessible to everyone.
+---
 
-The goal of DPN is to make computing power as accessible as water and electricity, enabling everyone to participate in the future of decentralized computing and benefit from it. It achieves this by having each DPN correspond to real computing power, ensuring numerical stability, and allowing users and enterprises to freely exchange, use, or convert computing power, breaking the monopoly of traditional cloud services.
+## **Overview**  
+The **DPN Collective** is an open-source initiative to build a decentralized physical computing network (DPN) that democratizes access to computing power. By leveraging idle resources from billions of devices worldwide, DPN aims to create a trustless, low-cost, and resilient alternative to centralized cloud services.  
 
-## Industry Advantages
-Compared with existing solutions in the market, DPN has significant competitive advantages:
-| Solution Type | Key Defects | Competitive Advantages of DPN |
-| --- | --- | --- |
-| Centralized cloud services | Single - point - of - failure risk, markup of over 480% | Five - dimensional dynamic pricing, fault - tolerant nodes |
-| Traditional distributed | 18% monthly node churn rate, latency > 30 milliseconds | Hardware fingerprint + VDF, stability > 99.9% |
-| Tokenized computing | Volatility of over 90% in tokens, value decoupling | Five - dimensional anchoring model, deviation < 5% |
+This repository serves as the central hub for the DPN protocol's development, documentation, and community collaboration.  
 
-When compared with traditional computing power vendors, DPN also outperforms in multiple dimensions:
-| Dimension | Traditional Computing Power Vendors | DPN |
-| --- | --- | --- |
-| Pricing model | Complex and opaque, monopoly premium | Five - dimensional dynamic anchoring, transparent and reasonable |
-| Computing power conversion delay | Slow response, late refund of fees | Real - time response, no delay |
-| Data security and privacy | Risks of leakage and abuse | Zero - knowledge proof to ensure privacy |
-| Service quality | Uneven | 99.9% normal operation, global balance |
-| Innovation freedom | Fixed and difficult to customize, slow response | Open - source and customizable, fast response |
-| Anti - censorship | Vulnerable to policy impacts | Distributed deployment, strong anti - censorship |
-| Marginal cost | Increases with scale | Approaches zero |
+---
 
-## Technical Architecture
-### Optimization Framework for Device Heterogeneity
-The optimization framework for device heterogeneity in DPN achieves 98% data availability. The heavy node layer (servers/smart cars) executes high - value tasks such as model training and improves efficiency through **asynchronous gradient updates**.
+## **Vision**  
+To make computing power as accessible and affordable as electricity, enabling anyone to contribute, access, and benefit from a global decentralized computing network.  
 
-### Ethereum Synergy
-- **Settlement layer**: DPN tokens are issued based on the ERC - 1400 standard and support low - cost settlement on the Ethereum L2 network (Optimism/Arbitrum), with transaction fees ≤ $0.01.
-- **Account abstraction**: Achieve account abstraction through EIP - 4337. Users can use ETH to pay for DPN computing power fees without maintaining multiple - token wallets.
+---
 
-### Node Network Comparison with Ethereum Proof - of - Stake (PoS)
-| Indicator | Ethereum Proof - of - Stake (PoS) | DPN |
-| --- | --- | --- |
-| **Node access** | Stake 32 ETH | Permissionless device access |
-| **Revenue source** | Block rewards + gas fees | Computing fees + burning subsidies |
-| **Degree of decentralization** | Approximately 800,000 validators (2025 data) | Target: 5 million devices (2028) |
+## **Key Features**  
+- **Tokenized Computing Power**: Every DPN token represents real, redeemable computing resources.  
+- **Five-Dimensional Dynamic Anchoring**: A robust model that ensures fair pricing and stability.  
+- **Anti-ASIC Design**: Prioritizes ordinary devices (e.g., smartphones, laptops) over specialized hardware.  
+- **Decentralized Governance**: A community-driven approach to protocol upgrades and decision-making.  
 
-## Governance Architecture
-DPN adopts a hierarchical governance model:
-| Governance Level | Decision - Making Scope | Voting Weight Algorithm |
-| --- | --- | --- |
-| L1 core layer | Protocol upgrade/anchoring parameters | Computing power contribution duration × 0.7+DPN staking amount × 0.3 |
-| L2 ecosystem layer | Application scenarios/partners | One - person - one - vote (SBT identity verification) |
-| L3 emergency layer | System meltdown/hacker response | 3/5 multi - signature committee |
+---
 
-## Roadmap
-- **Phase 1: Validation (2025–2026)**  
-  - Technical goals: The test network supports ZK - SNARK proof generation (compatible with Circom/R1CS), and integrate 1 million devices (focusing on game communities and data centers).
-  - Milestones:
-    - 2025Q4: Complete the deployment of the Optimism mainnet.
-    - 2026Q2: The geographical distribution of nodes covers 50 countries.
-- **Phase 2: Expansion (2027–2028)**  
-  - Technical goals: Achieve cross - L2 computing scheduling (interoperability of Optimism/zkSync/StarkNet), and the node scale exceeds 5 million, meeting 50% of the computing needs of Ethereum L2.
-  - Milestones:
-    - 2027Q3: The quantum - safe upgrade (Lattice - BLS signature) is activated across the network.
-    - 2028Q4: The satellite computing power cluster is connected for the first time.
-- **Phase 3: Autonomy (2029+)**  
-  - Technical goals: Completely transition to DAO governance, with the token burning rate ≥ issuance rate (deflationary stage), and support neural interfaces and quantum computing power access.
-  - Milestones:
-    - 2029Q1: The governance fund launches an AI agent pilot.
-    - 2030Q4: The delay of the Earth - Moon computing power corridor is optimized to within 1 second.
+## **Whitepaper**  
+The full technical and economic details of the DPN protocol are outlined in the **[DPN Whitepaper](https://github.com/jeffreylimn/DPN-Collective/blob/main/DPN-Whitepaper-v0.1.md)**.  
 
-## Security and Compliance
-### Post - Quantum Implementation Roadmap
-| Stage | Technical Goals | Completion Mark |
-| --- | --- | --- |
-| 2025Q4 | Pre - install PQC algorithms in TEE chips | Apple M3 chip passes FIPS 140 - 3 certification |
-| 2026Q2 | Lattice - BLS signatures are deployed across the network | Signature speed ≥ 1000 TPS |
-| 2027Q1 | Quantum random number generator (QRNG) | Pass NIST SP 800 - 90B testing |
+---
 
-### Legal Architecture Mirroring
-- Simultaneously register non - profit foundations in Switzerland, Singapore, and Wyoming.
-- Create an on - chain legal entity through Aragon to automatically execute DAO resolutions.
+## **Getting Started**  
+### **For Developers**  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/jeffreylimn/DPN-Collective.git  
+   cd DPN-Collective  
+   ```  
+2. Explore the codebase and documentation.  
+3. Check out the **Issues** tab for open tasks and contribution opportunities.  
 
+### **For Researchers and Enthusiasts**  
+- Read the **[Whitepaper](https://github.com/jeffreylimn/DPN-Collective/blob/main/DPN-Whitepaper-v0.1.md)** to understand the protocol's design and goals.  
+- Join the discussion in the **Discussions** tab or our community channels.  
+
+---
+
+## **How to Contribute**  
+We welcome contributions from developers, researchers, and community builders. Here’s how you can get involved:  
+
+### **1. Code Contributions**  
+- Fork the repository and create a new branch for your feature or fix.  
+- Submit a **Pull Request** with a clear description of your changes.  
+
+### **2. Research and Documentation**  
+- Help improve the whitepaper or write technical articles.  
+- Propose new ideas or optimizations in the **Discussions** tab.  
+
+### **3. Community Building**  
+- Spread the word about DPN on social media or at events.  
+- Help onboard new contributors and answer questions.  
+
+---
+
+## **Roadmap**  
+### **Phase 1: Concept Validation (2025)**  
+- Build a testnet with 100,000 nodes.  
+- Integrate with Ethereum L2 solutions (e.g., Optimism, Arbitrum).  
+
+### **Phase 2: Network Expansion (2026-2027)**  
+- Scale to 1 million devices.  
+- Launch the DPN token and governance system.  
+
+### **Phase 3: Planetary Infrastructure (2028+)**  
+- Deploy satellite nodes for global coverage.  
+- Enable cross-chain interoperability.  
+
+---
+
+## **Community**  
+Join the DPN Collective and help shape the future of decentralized computing:  
+- **Twitter**: [@Dpnprotocol](https://x.com/Dpnprotocol)  
+- **Email**: dpnprotocol@hotmail.com  
+
+---
+
+## **License**  
+This project is open-source and licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## **Disclaimer**  
+DPN is currently in the conceptual stage. We welcome feedback, guidance, and collaboration to bring this vision to life. For inquiries, contact us at **dpnprotocol@hotmail.com**.  
+
+--- 
+
+**Let’s build a future where computing power belongs to everyone.** 🚀
