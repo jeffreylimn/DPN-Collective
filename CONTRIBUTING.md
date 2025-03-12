@@ -1,3 +1,6 @@
+
+
+```markdown
 # How to Contribute to DPN Collective
 
 Thank you for your interest in building the future of decentralized computing!  
@@ -26,3 +29,70 @@ This guide will help you start contributing, even if you're new to open-source.
 git clone https://github.com/your-username/DPN-Collective.git
 cd DPN-Collective
 npm install
+```
+
+### 2. Creating a Pull Request (PR)
+1. Create a feature branch:  
+   ```bash
+   git checkout -b feat/your-feature-name
+   ```
+2. Make changes and test:  
+   ```bash
+   npm test  # Run test suite
+   ```
+3. Commit changes:  
+   ```bash
+   git commit -m "feat: add anti-ASIC validation module"
+   ```
+4. Push and create PR:  
+   - Go to your fork on GitHub → Click "Pull Request"  
+   - Use this PR title format: `[Type] Short description`  
+     - Types: `feat|fix|docs|test|refactor`
+
+---
+
+## Testing Requirements
+- **Unit Tests**: Required for all new logic  
+  Example test file: `/test/hashRateValidator.test.js`
+- **Integration Tests**: Required for protocol changes  
+  ```bash
+  npm run test:integration
+  ```
+- **Performance Tests**: For time-sensitive modules (VDF/zk-SNARKs)  
+  ```bash
+  npm run benchmark
+  ```
+
+---
+
+## Community Standards
+### Reward System
+- **Governance Rights**:  
+  Valid contributions earn governance points tracked via [Soulbound Tokens](https://vitalik.ca/general/2022/01/26/soulbound.html)
+- **Badge System**:  
+  ![Contributor Tier](https://img.shields.io/badge/Contributor-Bronze-gold)  
+  Earn NFT badges based on contribution value (see [Badge Criteria](./BADGE_CRITERIA.md))
+
+### Communication Channels
+| Purpose                     | Channel                          |
+|-----------------------------|----------------------------------|
+| Technical Discussions        | GitHub Issues                   |
+| Quick Questions              | [Discussions](https://github.com/jeffreylimn/DPN-Collective/discussions) |
+| Security Reports             | dpnprotocol@hotmail.com (PGP)   |
+
+---
+
+## Good First Issues
+Start with these beginner-friendly tasks:  
+[🔧 Good First Issues](https://github.com/jeffreylimn/DPN-Collective/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+
+---
+
+> "True decentralization is built by thousands of hands, not a single genius."  
+> — Inspired by Satoshi's Philosophy
+```
+
+---
+
+
+将此内容保存为`CONTRIBUTING.md`后，开发者将能快速理解项目规范并参与协作。
